@@ -1,0 +1,23 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" fill="#0f172a"/>
+  
+  <!-- Camera Body -->
+  <rect x="162" y="262" width="700" height="500" rx="100" fill="url(#mainGradient)"/>
+  
+  <!-- Lens Outer -->
+  <circle cx="512" cy="512" r="180" fill="#0f172a"/>
+  
+  <!-- Lens Inner (Glass) -->
+  <circle cx="512" cy="512" r="140" fill="#1e293b"/>
+  <circle cx="512" cy="512" r="100" fill="url(#mainGradient)" opacity="0.3"/>
+  
+  <!-- Flash -->
+  <circle cx="760" cy="360" r="25" fill="#f8fafc"/>
+  
+  <defs>
+    <linearGradient id="mainGradient" x1="162" y1="262" x2="862" y2="762" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+</svg>
